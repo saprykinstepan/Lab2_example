@@ -32,13 +32,13 @@
 ## 2. Реализация программы
 
 
-#включить <stdio.h>
-#включить <locale.h> 
-int main() {
- setlocale(LC_CTYPE, «RUS»);
- int EGGS_IN_YEAR = 253;
- Вес яйца в граммах: 58,0.
- вес курицы в килограммах = 1,9;
+    #включить <stdio.h>
+    #включить <locale.h> 
+    int main() {
+    setlocale(LC_CTYPE, «RUS»);
+    int EGGS_IN_YEAR = 253;
+    Вес яйца в граммах: 58,0.
+    вес курицы в килограммах = 1,9;
 
     float HEN_WEIGHT_G = HEN_WEIGHT_KG * 1000;
     float TOTAL_EGG_WEIGHT_G = EGGS_IN_YEAR * EGG_WEIGHT_G;
