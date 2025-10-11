@@ -32,8 +32,8 @@
 ## 2. Реализация программы
 
 
-    #включить <stdio.h>
-    #включить <locale.h> 
+    #include <stdio.h>
+    #include <locale.h> 
     int main() {
     setlocale(LC_CTYPE, «RUS»);
     int EGGS_IN_YEAR = 253;
